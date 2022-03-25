@@ -12,7 +12,9 @@
         />
     </head>
     <body>
+        <!---------------- header section -------------------------------->
         <header>
+            <!-- side bar ------------------>
             <div class="side-bar">
                 <div class="logo">
                     <div class="logo__img">A</div>
@@ -20,7 +22,7 @@
                 </div>
                 <nav>
                     <ul class="nav-links">
-                        <li class="nav-link">
+                        <li class="nav-link active">
                             <a href="#home">
                                 <i class="fa-solid fa-house nav-link__icon"></i>
                                 <span class="nav-link__name">Home</span>
@@ -65,16 +67,86 @@
                         <p>Web Developer</p>
                     </div>
                 </div>
-                <div class="menu">
-                    <div class="menu__open">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
-                    <div class="menu__close">
-                        <i class="fa-solid fa-xmark"></i>
-                    </div>
+            </div>
+            <!-- end of side bar ----------->
+
+            <!-- hamburger menu ------------>
+            <div class="menu">
+                <div class="menu__open">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="menu__close">
+                    <i class="fa-solid fa-xmark"></i>
                 </div>
             </div>
+            <!-- end of hamburger menu ----->
         </header>
+        <!---------------- end of header section ------------------------->
+
+        <!---------------- home section ---------------------------------->
+        <section id="home" class="container home-sec">
+            <!-- avatar section ------------>
+            <div class="avatar">
+                <div class="avatar-img"></div>
+            </div>
+            <!-- end of avatar section ----->
+
+            <!-- detail section ------------>
+            <div class="details">
+                <h1>Arafin Shahadat</h1>
+                <p class="job">
+                    Creative Photographer based in New York and happy to travel
+                    all over Europe to capture photos.
+                </p>
+                <div class="social-links">
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.facebook.com/arafin.shahadat/"
+                                class="social-link"
+                                target="_blank"
+                                ><i
+                                    class="fa-brands fa-facebook-f social-link__icon"
+                                ></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.linkedin.com/in/arafin-shahadat/"
+                                class="social-link"
+                                target="_blank"
+                                ><i
+                                    class="fa-brands fa-linkedin social-link__icon"
+                                ></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://twitter.com/arafin_shahadat"
+                                class="social-link"
+                                target="_blank"
+                                ><i
+                                    class="fa-brands fa-twitter social-link__icon"
+                                ></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/arafintushar"
+                                class="social-link"
+                                target="_blank"
+                                ><i
+                                    class="fa-brands fa-github social-link__icon"
+                                ></i
+                            ></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end of detail section ----->
+        </section>
+        <!---------------- end of header section ------------------------->
+
         <script src="./js/main.js"></script>
     </body>
 </html>
